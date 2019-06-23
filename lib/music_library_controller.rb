@@ -25,9 +25,10 @@ class MusicLibraryController
       
       input = gets.strip
       MusicLibraryController.list_songs if input=='list songs'
+      binding.pry
 
     end
-   # binding.pry
+  
   end
   
   def list_songs
