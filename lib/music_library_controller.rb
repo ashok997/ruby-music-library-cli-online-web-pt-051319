@@ -26,6 +26,7 @@ class MusicLibraryController
       input = gets.strip
 
     end
+    binding.pry
   end
   
   def list_songs
