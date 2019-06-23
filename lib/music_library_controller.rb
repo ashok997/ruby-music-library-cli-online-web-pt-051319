@@ -25,10 +25,15 @@ class MusicLibraryController
       
       input = gets.strip
       
-      if input =='list songs'
-        self.list_songs
+      case input
+        when "list songs"
+          self.list_songs
+        when "list artists"
+          self.list_artists
         
       end
+      
+    
     end
   
   end
