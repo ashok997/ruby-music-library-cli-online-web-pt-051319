@@ -27,7 +27,7 @@ class MusicLibraryController
       MusicLibraryController.list_songs if input=='list songs'
 
     end
-    binding.pry
+   # binding.pry
   end
   
   def list_songs
